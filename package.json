@@ -1,0 +1,13 @@
+{
+  "name": "crai-api",
+  "version": "1.0.0",
+  "description": "Cloud-native emotional OS for CR AudioViz AI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "body-parser": "^2.2.0"
+  }
+}
