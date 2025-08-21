@@ -16,4 +16,4 @@ app.post("/crai/federate", (req, res) => {
   res.json({ status: "CRAI absorbed insight from " + source });
 });
 
-app.listen(3000, () => console.log("✅ CRAI is live and listening on port 3000"));
+app.listen(process.env.PORT || 3000, () => console.log("✅ CRAI is live and listening on port 3000"));
